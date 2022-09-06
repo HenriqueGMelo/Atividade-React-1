@@ -16,22 +16,22 @@ function Navbar() {
                     <Box display="flex" justifyContent="start">
                         <Box mx={1} className='cursor'>
                             <Typography variant="h6" color="inherit">
-                                <Link to="/home">Home</Link>
+                                <Link to="/home" className='caminho text-decorator-none'>home</Link>
                             </Typography>
                         </Box>
                         <Box mx={1} className='cursor'>
                             <Typography variant="h6" color="inherit">
-                                postagens
+                            <Link to="/postagem" className='caminho text-decorator-none'>postagens</Link>
                             </Typography>
                         </Box>
                         <Box mx={1} className='cursor'>
                             <Typography variant="h6" color="inherit">
-                                temas
+                            <Link to="/temas" className='caminho text-decorator-none'>temas</Link>
                             </Typography>
                         </Box>
                         <Box mx={1} className='cursor'>
                             <Typography variant="h6" color="inherit">
-                                cadastrar
+                            <Link to="/cadastrousuario" className='caminho text-decorator-none'>cadastrar</Link>
                             </Typography>
                         </Box>
                         <Link to='/login' className='text-decorator-none'>
